@@ -1,0 +1,36 @@
+*{margin:0;padding:0;}
+body{background-image:url(../imagenes/City.jpg);background-size:100% 100%;background-attachment:fixed;background-position:auto;background-repeat:no-repeat;
+color:white}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(valhalla.ttf);}
+h2{font-family: myFirstFont;}
+h3{font-family: myFirstFont;}
+p {font-family: myFirstFont;}
+a {font-family: myFirstFont;}
+.purplecolor{color:purple;}
+
+/*Welcome*/
+.logo{display:inline-block;width:12%;position:relative;left:30%;background:#000;border:3px solid purple;margin:10% 0%;margin-right:0.5%;  }
+
+.letachat {display:inline-block;position:absolute; background:#000;border:3px solid purple;margin:10% 30%;padding-top:4.5%;width:30%;height:11.4%  }
+.Leta{color:red; }
+
+
+/*main*/
+.main{;background:rgba(0, 0, 0, 0.5);width:60%;margin:0% 5%;position:absolute; }
+.H2M{margin:1% 0% 5%;border:3px solid purple;background:#000;text-align:center;}
+.h3main{margin-left:3%;color:lightblue;}
+.mainp{margin: 0% 5% 5%;font-size:18px}
+
+/*references aside*/
+.asidebar{background:rgba(0, 0, 0, 0.5);width:30%;position:relative;left:70%}
+.H2R{border:3px solid purple;border-right:none; background:#000;margin:1% ;padding:10px 20px;color:#fff;font-size:150%;}
+ul {list-style-type:none;}
+.referencias{margin:0;padding:0; }
+.referencias li a{border:3px solid purple;padding:10px 20px;margin:0% 0% 0.5% 5%;display:inline-block;background:#000;color:#fff;text-decoration:none;font-size:150%;width:80%}
+.referencias li a:hover{color:purple;background:gray;}
+.referencias li a:active{color:#04acd0;background:#fff;}
+
+
